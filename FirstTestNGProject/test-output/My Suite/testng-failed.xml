@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Suite]">
+  <test name="My Tests1(failed)" parallel="methods">
+    <classes>
+      <class name="firsttestngpackage.Test4_ParallelRun">
+        <methods>
+          <include name="executSessionOne"/>
+          <include name="executeSessionTwo"/>
+          <include name="executSessionThree"/>
+        </methods>
+      </class> <!-- firsttestngpackage.Test4_ParallelRun -->
+    </classes>
+  </test> <!-- My Tests1(failed) -->
+</suite> <!-- Failed suite [My Suite] -->
