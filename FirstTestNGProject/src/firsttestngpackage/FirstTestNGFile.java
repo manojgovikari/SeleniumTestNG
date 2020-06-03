@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.*;
-
+//Git push test from local after cloning
 public class FirstTestNGFile {
     public String baseUrl = "http://demo.guru99.com/test/newtours/";
     String driverPath = "C:\\Users\\Manoj\\Desktop\\OFFICE PROJECT WORK\\Java_selenium_Documentation_Setup\\chromedriver_win32\\chromedriver.exe";
