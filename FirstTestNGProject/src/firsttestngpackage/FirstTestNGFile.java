@@ -13,6 +13,7 @@ public class FirstTestNGFile {
     public WebDriver driver ; 
     Logger log = Logger.getLogger("devpinoyLogger");
  
+    
     @Test(priority=1)
     public void Test1_Pass() {
     	log.info("Test1_passed");
